@@ -20,7 +20,7 @@
     <section class="header">
         <div class="container">
             <img src="images/logo.jpg" alt="logo">
-            <button type="button" class="login-btn">Login </button>
+            <a href="{{route('login')}}"><button type="button" class="login-btn">Login </button></a> 
             <h1>secure your space with us</h1>
             <p>Book your space in our spacious, comfortable and secure apartments today</p>
             <p>Have access to fast wifi, hot showers,apartments fitted with 27000w backup generator</p>
